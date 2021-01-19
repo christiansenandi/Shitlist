@@ -4,9 +4,12 @@ ShitlistDB = {}
 ShitlistSettings = {}
 
 config.Reasons = {
-    "Ninja Looting",
-    "Kill Stealing",
-    "Spamming",
+    "Leaver - M+",
+    "Leaver - Raid",
+	"Ninja - Raid",
+    "Toxic",
+	"Noob",
+	"just stupid..",
 }
 
 config.ListedPlayers = {}
