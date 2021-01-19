@@ -6,10 +6,10 @@ ShitlistSettings = {}
 config.Reasons = {
     "Leaver - M+",
     "Leaver - Raid",
-	"Ninja - Raid",
+    "Ninja - Raid",
     "Toxic",
-	"Noob",
-	"just stupid..",
+    "Noob",
+    "just stupid..",
 }
 
 config.ListedPlayers = {}
