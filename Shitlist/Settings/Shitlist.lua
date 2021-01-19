@@ -123,7 +123,7 @@ SoundInfo:SetText("Is not played if the player is the same since last warning wa
 local SoundCheckBox = CreateFrame("CheckButton", "SettingsSoundCheckBox", AudioFrame, "ChatConfigCheckButtonTemplate")
 SoundCheckBox:SetPoint("TOPLEFT", 25, -60)
 getglobal(SoundCheckBox:GetName().."Text"):SetText("Enable Audio"); -- Add localization
-SoundCheckBox.tooltip = "Plays sound efect when a listed player is found" -- Add localization
+SoundCheckBox.tooltip = "Plays sound effect when a listed player is found" -- Add localization
 SoundCheckBox:SetScript("OnClick", function(self)
     if config.AlertEnable == false then 
         config.AlertEnable = true
